@@ -4,9 +4,9 @@ import './styles.css'
 const Card = props => {
     return (
         <div className="card-container">
-            <img alt="monster" src={`https://robohash.org/${props.monster.id}?set=set2&size=180x180`} />
-            <h1>{props.monster.name}</h1>
-            <p>{props.monster.email}</p>
+            <img alt="users" src={`https://avatars.dicebear.com/api/human/${props.user.id}.svg`}/>
+            <h2>{props.user.name}</h2>
+            <p>{props.user.email}</p>
         </div>
     )
 }
